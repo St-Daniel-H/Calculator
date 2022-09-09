@@ -35,7 +35,10 @@ background-color: #fe4f19;
 }
 button{
     font-size: 20px;
-    background-color: #ffeaae;
+    background-color: #817f7f;
+}
+button:hover{
+    color: white;
 }
 #App{
     margin: auto;

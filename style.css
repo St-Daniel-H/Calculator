@@ -1,0 +1,60 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding:0;
+  margin:0;
+  background-color: black;
+  color: #ffeaae;
+}
+@import url(//db.onlinewebfonts.com/c/ce4b0ee545ec52c2ec8cec62d23ffb09?family=Calculator);
+@font-face {font-family: "Calculator"; src: url("//db.onlinewebfonts.com/t/ce4b0ee545ec52c2ec8cec62d23ffb09.eot"); src: url("//db.onlinewebfonts.com/t/ce4b0ee545ec52c2ec8cec62d23ffb09.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ce4b0ee545ec52c2ec8cec62d23ffb09.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ce4b0ee545ec52c2ec8cec62d23ffb09.woff") format("woff"), url("//db.onlinewebfonts.com/t/ce4b0ee545ec52c2ec8cec62d23ffb09.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ce4b0ee545ec52c2ec8cec62d23ffb09.svg#Calculator") format("svg"); }
+#Buttons{
+    display: grid;
+    grid-template-columns: 5rem 7rem 4rem;
+}
+.top{
+    height: 3rem;
+}
+#Digits{
+    display: grid;
+    grid-template-columns: 4rem 4rem 4rem 4rem;
+    grid-template-rows: 6rem 6rem 6rem 4rem;
+}
+#equals{
+width: 8rem;
+background-color: #fe4f19;
+
+}
+#OnOff{
+ background-color:#fe4f19;
+}
+button{
+    font-size: 20px;
+    background-color: #ffeaae;
+}
+#App{
+    margin: auto;
+    width:18rem;
+    height: auto;
+    background-color: #003049;
+}
+#wrapper{
+    padding:1rem;
+}
+#display{
+    color: #fee719;
+    background-color: black;
+    font-size: 30px;
+    font-family: Calculator;
+text-align: right;
+}
+#clear{
+    background-color: #d62828;
+}
+.tool{
+    background-color: #1888ce;
+}

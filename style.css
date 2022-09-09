@@ -29,6 +29,7 @@ width: 8rem;
 background-color: #fe4f19;
 
 }
+
 #OnOff{
  background-color:#fe4f19;
 }
@@ -50,7 +51,8 @@ button{
     background-color: black;
     font-size: 30px;
     font-family: Calculator;
-text-align: right;
+   text-align: right;
+   word-wrap: break-word;
 }
 #clear{
     background-color: #d62828;

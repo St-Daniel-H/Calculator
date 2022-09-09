@@ -82,9 +82,10 @@ function App(){
             } 
             array.splice(text.length-x,x,"/");
             settext([...array]);
-        }
+        
         }
         else settext([...text].concat('/'));
+    }
     }
     function clear(){
         if(power == true)  settext([0]);

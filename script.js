@@ -35,6 +35,7 @@ function App(){
         }else if(text[text.length-1] == "-" || text[text.length-1] == "*" || text[text.length-1] == "/"){ 
             for(let i = text.length-1;i>0;i--){
                 if(text[i] == '-' || text[i] =="*" || text[i]=="/"){x++}
+                else break;
             } 
             array.splice(text.length-x,x,"+");
             settext([...array]);
@@ -63,6 +64,7 @@ function App(){
         }else if(text[text.length-1] == "-" || text[text.length-1] == "+" || text[text.length-1] == "/"){ 
             for(let i = text.length-1;i>0;i--){
                 if(text[i] == '-' || text[i] =="+" || text[i]=="/"){x++}
+                else break;
             } 
             array.splice(text.length-x,x,"*");
             settext([...array]);
@@ -79,6 +81,7 @@ function App(){
         }else if(text[text.length-1] == "-" || text[text.length-1] == "*" || text[text.length-1] == "+"){ 
             for(let i = text.length-1;i>0;i--){
                 if(text[i] == '-' || text[i] =="*" || text[i]=="+"){x++}
+                else break;
             } 
             array.splice(text.length-x,x,"/");
             settext([...array]);

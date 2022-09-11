@@ -15,6 +15,7 @@ body{
 #Buttons{
     display: grid;
     grid-template-columns: 5rem 7rem 4rem;
+    color: black;
 }
 .top{
     height: 3rem;
@@ -29,9 +30,15 @@ width: 8rem;
 background-color: #fe4f19;
 
 }
+#equals:hover{
+   background-color: #c23b13;
+}
 
 #OnOff{
  background-color:#fe4f19;
+}
+#OnOff:hover{
+    background-color:#c23b13;
 }
 button{
     font-size: 20px;
@@ -39,6 +46,7 @@ button{
 }
 button:hover{
     color: white;
+    background-color: #646363;
 }
 #App{
     margin: auto;
@@ -60,6 +68,12 @@ button:hover{
 #clear{
     background-color: #d62828;
 }
+#clear:hover{
+    background-color:#a61f1f;
+}
 .tool{
     background-color: #1888ce;
+}
+.tool:hover{
+    background-color: #126396;
 }

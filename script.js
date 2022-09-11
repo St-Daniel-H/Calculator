@@ -59,11 +59,9 @@ function App(){
         if(power==true){
         let array = text;
         let x = 0;
-        if(text[text.length-1] == '*'){
-            return
-        }else if(text[text.length-1] == "-" || text[text.length-1] == "+" || text[text.length-1] == "/"){ 
+        if(text[text.length-1] == "-" || text[text.length-1] == "+" || text[text.length-1] == "/" || text[text.length-1] == "*"){ 
             for(let i = text.length-1;i>0;i--){
-                if(text[i] == '-' || text[i] =="+" || text[i]=="/"){x++}
+                if(text[i] == '-' || text[i] =="+" || text[i]=="/" || text[i]=="*"){x++}
                 else break;
             } 
             array.splice(text.length-x,x,"*");
@@ -76,11 +74,9 @@ function App(){
         if(power == true){
         let x = 0;
         let array = text;
-        if(text[text.length-1] == '/'){
-            return
-        }else if(text[text.length-1] == "-" || text[text.length-1] == "*" || text[text.length-1] == "+"){ 
+        if(text[text.length-1] == "-" || text[text.length-1] == "+" || text[text.length-1] == "/" || text[text.length-1] == "*"){ 
             for(let i = text.length-1;i>0;i--){
-                if(text[i] == '-' || text[i] =="*" || text[i]=="+"){x++}
+                if(text[i] == '-' || text[i] =="+" || text[i]=="/" || text[i]=="*"){x++}
                 else break;
             } 
             array.splice(text.length-x,x,"/");

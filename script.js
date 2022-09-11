@@ -117,7 +117,8 @@ function App(){
           <button id="seven"onClick={Digit('7')}>7</button>
                <button id="eight"onClick={Digit('8')}>8</button>
                <button id="nine"onClick={Digit('9')}>9</button>
-               <button id="add"class="tool"  onClick={add}>+</button>
+               <button id="multiply" class="tool" onClick={multiply}>x</button>
+              
                <button id="four"onClick={Digit('4')}>4</button>
                <button id="five"onClick={Digit('5')}>5</button>
                <button id="six"onClick={Digit('6')}>6</button>
@@ -125,7 +126,7 @@ function App(){
                <button id="one" onClick={Digit('1')}>1</button>
                <button id="two" onClick={Digit('2')} >2</button>
                <button id="three"onClick={Digit('3')}>3</button>
-               <button id="multiply" class="tool" onClick={multiply}>x</button>
+               <button id="add"class="tool"  onClick={add}>+</button>
                <button id="decimal"onClick={decimal}>.</button>
                <button id="zero" onClick={Digit('0')}>0</button>
                <button id="equals" onClick={equals}>=</button>
